@@ -1,4 +1,4 @@
-package ke.co.insuranceapp;
+package za.co.insuranceapp;
 
 import android.content.Context;
 import android.content.Intent;
