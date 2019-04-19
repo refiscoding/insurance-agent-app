@@ -1,4 +1,4 @@
-package ke.co.insuranceapp;
+package za.co.insuranceapp;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
