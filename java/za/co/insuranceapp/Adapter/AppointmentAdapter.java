@@ -1,4 +1,4 @@
-package ke.co.insuranceapp.Adapter;
+package za.co.insuranceapp.Adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
