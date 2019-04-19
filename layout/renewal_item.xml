@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selectedbackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/clientNameTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Client"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phoneTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Phone"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="Insured Object:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/insuredTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Insured Object" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="Risk:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/riskTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Risk" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="Premium:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/premiumTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Premium" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="Insurance Company:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/insuranceCompanyTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Insurance Company" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="Effective date:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/effectiveDateTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/12/2018" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="Expiry date:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/expiryDateTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/12/2018" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:alpha="0.3"
+            android:background="#000" />
+    </LinearLayout>
+
+</FrameLayout>
