@@ -1,4 +1,4 @@
-package ke.co.insuranceapp.Models;
+package za.co.insuranceapp.Models;
 
 public class Appointment {
     String client;
