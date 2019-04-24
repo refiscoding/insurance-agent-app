@@ -1,4 +1,4 @@
-package ke.co.insuranceapp;
+package za.co.insuranceapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
