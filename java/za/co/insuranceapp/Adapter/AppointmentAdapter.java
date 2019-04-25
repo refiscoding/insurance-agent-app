@@ -10,11 +10,11 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import ke.co.insuranceapp.Models.Appointment;
-import ke.co.insuranceapp.Models.Renewal;
-import ke.co.insuranceapp.R;
-import ke.co.insuranceapp.ViewHolders.AppointmentViewHolder;
-import ke.co.insuranceapp.ViewHolders.RenewalViewHolder;
+import za.co.insuranceapp.Models.Appointment;
+import za.co.insuranceapp.Models.Renewal;
+import za.co.insuranceapp.R;
+import za.co.insuranceapp.ViewHolders.AppointmentViewHolder;
+import za.co.insuranceapp.ViewHolders.RenewalViewHolder;
 
 public class AppointmentAdapter extends RecyclerView.Adapter<AppointmentViewHolder> {
 
