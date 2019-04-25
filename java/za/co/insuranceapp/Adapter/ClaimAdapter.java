@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 ;
 import java.util.List;
 
-import ke.co.insuranceapp.Models.Claim;
+import za.co.insuranceapp.Models.Claim;
 
-import ke.co.insuranceapp.R;
-import ke.co.insuranceapp.ViewHolders.ClaimViewHolder;
+import za.co.insuranceapp.R;
+import za.co.insuranceapp.ViewHolders.ClaimViewHolder;
 
 
 public class ClaimAdapter extends RecyclerView.Adapter<ClaimViewHolder> {
